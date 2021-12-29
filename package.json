@@ -1,0 +1,30 @@
+{
+  "name": "tutorial-video-js-video_conference_application",
+  "version": "1.0.0",
+  "description": "This repo contains the accompanying code for the tutorial series that covers the step by step guide for building a video conference app with the Vonage API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vonage-Community/tutorial-video-js-video_conference_application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vonage-Community/tutorial-video-js-video_conference_application/issues"
+  },
+  "homepage": "https://github.com/Vonage-Community/tutorial-video-js-video_conference_application#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "opentok": "^2.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
